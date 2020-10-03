@@ -1,0 +1,45 @@
+.footer {
+  display: grid;
+  place-items: center;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  height: 7vh;
+  /* margin-bottom: 10px; */
+  font-size: 60%;
+}
+
+.footer_contactIcon {
+  display: flex;
+}
+
+a {
+  display: flex;
+  align-items: center;
+  transition: all 0.2s ease;
+}
+
+a > .MuiSvgIcon-root {
+  font-size: 20px;
+  padding: 0 2px 0 15px;
+}
+
+.footer_contactInfo {
+  font-size: 12px;
+  /* margin-top: 2px; */
+  display: grid;
+  place-items: center;
+}
+
+.footer_contactIcon_youtube:hover {
+  color: red;
+}
+
+.footer_contactIcon_instagram:hover {
+  color: rgb(255, 0, 200);
+}
+
+.footer_contactIcon_whatsapp:hover {
+  color: #0a8d48;
+}

@@ -1,0 +1,54 @@
+.sidebarChat {
+  display: flex;
+  position: relative;
+  align-items: center;
+  padding: 10px 20px;
+  width: 100%;
+  cursor: pointer;
+  border-bottom: 1px solid #f6f6f6;
+  transition: all 0.2s ease-out;
+}
+
+.sidebarChat:hover {
+  background-color: #ebebeb;
+}
+
+.sidebarChat_info {
+  margin-left: 15px;
+  display: flex;
+  flex: 1;
+}
+
+.sidebarChat_info_detail {
+  flex: 1;
+}
+
+.sidebarChat_info_detail > h2 {
+  font-size: 20px;
+}
+
+.sidebarChat_info_detail > p {
+  font-size: 16px;
+}
+
+.sidebarChat_info_delete {
+  align-self: center;
+  opacity: 0;
+  pointer-events: none;
+  transition: all 0.3s ease-out;
+  color: red !important;
+}
+
+.sidebarChat:hover .sidebarChat_info_delete {
+  opacity: 1;
+  pointer-events: initial;
+}
+
+.sidebarChat_info_detail + .MuiIconButton-root {
+  padding: 8px;
+}
+
+a {
+  text-decoration: none !important;
+  color: black;
+}
